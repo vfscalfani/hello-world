@@ -1,4 +1,4 @@
 # hello-world
 Learning the workflow
-
-testing out branching (fixed typo)
+Editing the readme in Atom
+This is a nice editor
