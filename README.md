@@ -1,4 +1,4 @@
 # hello-world
 Learning the workflow
 
-testing out beanching
+testing out branching (fixed typo)
