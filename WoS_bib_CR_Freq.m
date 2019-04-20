@@ -16,8 +16,7 @@ within the inputed BibTeX file.
 %}
 
 
-%% 1. Input "Full Record and Cited References" WoS BibTex file. 
-
+%% 1. Input "Full Record and Cited References" WoS BibTex file.
 % change directory
 cd('H:\Documents\MATLAB\Bibliometrics\WoS Cited Refs Analysis');
 
@@ -40,7 +39,6 @@ CR_cell = [CR_cell{:}];
 CR_cell = CR_cell';
 
 %% 3. Extract out only the Journal/Reference Title from result in step 2.
-
 % now split at comma delimiter
 CR_cell_s = cellfun(@(comma) strsplit(comma, ','), CR_cell, 'UniformOutput', false);
    
